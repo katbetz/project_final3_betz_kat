@@ -170,11 +170,16 @@ footer p{
         width:22%;
         display:inline-block;
     }
+    
+    figure.header{
+        min-height:150px;
+    }
+
 }
 
 @media screen and (min-width:680px){
-    figure img{
-        max-width:800px;
+    figure.header{
+        min-height:200px;
     }
     
     section{
@@ -196,6 +201,9 @@ footer p{
     .fltright{
         float:right;
         width:48%
+    }
+    figure.header{
+        min-height:300px;
     }
 }
 
