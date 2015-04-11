@@ -43,9 +43,21 @@ header{
     background:#091214 url("../img/header_decoration.png") no-repeat top right;
     padding:2% 2% 1% 2%;
 }
-
 header img{
-    float:left;
+    display:block;
+}
+
+header p img{
+    display:inline;
+}
+
+header p {
+    margin:3px auto;
+}
+
+figure.header{
+    text-align:center;
+    min-height:100px;
 }
 
 nav {
@@ -137,6 +149,14 @@ footer p{
     nav ul li{
         width:47%;
         display:inline-block;
+    }
+    
+    header img{
+        float:left;
+    }
+    
+    header p img{
+        float:none;
     }
 
     section{
