@@ -13,6 +13,7 @@ h1 {
     font-family: 'Droid Serif', serif;
     color:#c7a224;
     text-shadow:1px 1px 2px #091214;
+    clear:both;
 }
 
 h2 {
@@ -141,6 +142,19 @@ footer p{
     padding:20px 0;
 }
 
+.food img{
+    max-height:100px;
+    float:left;
+    margin:10px;
+    border-bottom: 1px solid #091214;
+    border-right: 1px solid #091214;
+}
+
+.food p{
+    float:left;
+}
+
+
 @media screen and (min-width:440px){
     nav ul{
         width:100%;
@@ -166,6 +180,14 @@ footer p{
         width:90%;
         margin:0 auto;
     }
+    .food img{
+        max-height:130px;
+    }
+    .food p{
+        max-width:40%;
+    }
+    
+
 }
 
 @media screen and (min-width:560px){
@@ -174,6 +196,13 @@ footer p{
         display:inline-block;
     }
     
+    .food img, article.bash img{
+        max-height:175px;
+    }
+    .food p{
+        max-width:35%;
+    }
+
     figure.header{
         min-height:150px;
     }
@@ -183,6 +212,10 @@ footer p{
 @media screen and (min-width:680px){
     figure.header{
         min-height:200px;
+    }
+    
+    .food p{
+        max-width:50%;
     }
     
     section{
