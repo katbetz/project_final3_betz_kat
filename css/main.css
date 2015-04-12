@@ -89,7 +89,7 @@ li a:hover, li a:active{
 }
 
 #menunav{
-    background:#091214 url("../img/header_decoration.png") repeat top right;
+    background:transparent url("../img/menunav.png") no-repeat top right;
 }
 
 figure{
