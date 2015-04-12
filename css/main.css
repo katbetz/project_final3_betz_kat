@@ -88,6 +88,10 @@ li a:hover, li a:active{
     color:#c7a224;
 }
 
+#menunav{
+    background:#091214 url("../img/header_decoration.png") repeat top right;
+}
+
 figure{
     text-align:center;
 }
