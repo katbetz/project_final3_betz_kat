@@ -35,4 +35,12 @@ function MenuFunction() {
 
 }
 
+$("#orderform").submit(function( event ) {
+    event.preventDefault();
+    $("form").hide("slow");
+    $("#submitted").text( "Thank you for your request. This is not the resturant you were looking for." );
+
+});
+
+
 });
