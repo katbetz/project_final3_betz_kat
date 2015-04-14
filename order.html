@@ -32,38 +32,60 @@
             </ul>
         </nav>
     </header>
-    <figure class="header">        
-    </figure>
-    <section class="fltleft">
-        <article>
-            <h2>The Cantina</h2>
-            <p>Run by the one and only Chalmun, the Cantina boasts a menu as diverse as its customers.</p>
-            <p>Located on the lovely Tatooine, this cantina is no place for your droid as sand is the number one feature of the planet. Don't get sand in your droid.</p>
-            <p>The Cantina hosts a maximum of 72 occupants, as per fire code, with attitudes ranging from mild contempt to hostile.</p>
-        </article>
-        
-        <article class="contact">
-            <h2>Contact</h2>
-            <p>Open all day. Every day. On Tatooine.</p>
-            <p>For a good time call: 867-5309</p>
-            <p>Chalmun@cantina.tat</p>
-            
-            
-        </article>
-    </section>
-    
-    
-    
-    <section class="fltright">
-        <article>
-            <h2>Our Bartenders</h2>
-            <h3>Wuher</h3>
-            <p>Enjoys chemestry and swoop bike races</p>
-            <p>Specialty drink: Wuher's Special</p>
-            <h3>Ackmena</h3>
-            <p>Enjoys singing and Thyferran sunsets</p>
-            <p>Specialty drink: The Song and Dance</p>
-        </article>
+    <section>
+        <form id="orderform">
+       <label for="ordername"> Enter your Name </label>
+       <input id="ordername" type="text" name="name">
+       
+       <label for="ordermenu">What do you want to order?</label>
+       <select id="ordermenu">
+             <optgroup label="Appetizers">
+                <option value="7">Nut-Beetle</option>
+                <option value="5">Eilnian Sweet Fly</option>
+                <option value="1">Star Fries</option>
+                <option value="2">Brightgum</option>
+              </optgroup>
+              <optgroup label="Entrees">
+                <option value="27">Quor'sav-Fried Steak</option>
+                <option value="28">Smoked Terrafin Loin</option>
+                <option value="17">Sulfurous Moon Slider</option>
+                <option value="42">Nurfburger</option>
+                <option value="13">Squill Liver Salad</option>
+              </optgroup>
+              <optgroup label="Desserts">
+                <option value="4">Smuggler's Delight</option>
+                <option value="8">Ryshcate</option>
+                <option value="6">Tenbah Squid Pie</option>
+                <option value="3">Kowakian Crumb Cake</option>
+              </optgroup>
+              <optgroup label="Non-Alcoholic Beverages">
+                <option value="2.5">Kuul Milk</option>
+                <option value="3.75">Tatooine H'Kak Bean Tea</option>
+                <option value="4.5">Fizzy-Bip</option>
+                <option value="9">Harmon Kizzlebrew</option>
+                <option value="18">Ragnook Spring Water</option>
+                <option value="5.5">Blue Milk</option>
+              </optgroup>
+              <optgroup label="Alcoholic Beverages">
+                <option value="2.5">Whyren's Reserve</option>
+                <option value="3.5">Gruvian Tovash</option>
+                <option value="4.5">Double-Dip Outer Rim Rumdrop</option>
+                <option value="50">A Walk In The Phelopean Forest</option>
+                <option value="7.5">Mind Eraser</option>
+                <option value="8.5">Sonic Screwdriver</option>
+                <option value="5.5">Skannbult Likker</option>
+                <option value="9.5">Zoochberry Juice</option>
+                <option value="10">Wuher's Special</option>
+                <option value="12">Song and Dance</option>
+                <option value="11">Reactor Core</option>
+              </optgroup>
+        </select>
+        <label for="ordernumber">How many do you want?</label>
+        <input id="ordernumber" type=number min=0 max=10>
+       
+       <input type=submit value="Send Order">
+        </form>
+		<p id="submitted"></p>
     </section>
 
 
