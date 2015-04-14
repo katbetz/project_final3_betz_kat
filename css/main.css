@@ -150,6 +150,16 @@ input[type="submit"]:hover, input[type="button"]:hover, input[type="submit"]:act
     background-color:#d7c7aa;
 }
 
+label{
+    display:block;
+    padding:15px 15px 15px 0px;
+}
+
+#submitted{
+    text-align:center;
+}
+
+
 footer{
     background-color:#091214;
     overflow:auto;
